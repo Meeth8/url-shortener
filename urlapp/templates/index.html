@@ -1,0 +1,56 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Url Shortner</title>
+  <link rel="stylesheet" href="{% static 'urlapp/url.css' %}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- icons -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+<body>
+  <nav class="navbar">
+    <ul>
+        <li><a href="/url-history/">URL History</a></li>
+    </ul>
+</nav>
+
+  <div class="container">
+    <div class="heading__text">
+
+      <h1 class="heading">
+        Shorten Your Loooong Links :)
+      </h1>
+      <p class="desc">
+        Linkly is an efficient and easy-to-use URL shortening service that streamlines your online experience.
+      </p>
+    </div>
+    
+    <div class="url__short-container">
+      <div class="input__container">
+        <i class="ri-links-line"></i>
+        <input type="url" placeholder='Enter the link' class="inputUrl" id="orgurl">
+        <button class="shortBtn" id="urlbtn">
+          Shorten Now!
+        </button>
+      </div>
+    </div>
+    
+    <div class="result__container" id="shorturl">
+      <span class="shortenedUrl"></span>
+    </div>
+
+  </div>
+</body>
+<script src="{% static 'urlapp/url.js' %}"></script>
+<script src="{% static 'urlapp/urlhistory.js' %}"></script>
+</html>

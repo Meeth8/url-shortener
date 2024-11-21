@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+  }
+
+  html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background: #0b101b;  
+  }
+ 
+  h1{
+    font-size:clamp(2.1rem, 7vw, 3rem);
+  line-height: 1.2;
+  background-image: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
+  background-size: 200%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 1rem;
+  }
+
+  #urlTable {
+    color: white;
+    font-size: 20px; 
+    width: 100%; 
+}
+
+#one{
+    color: orange;
+    position: relative;
+    left: 9rem;
+    top: 2rem;
+}
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    #one {
+        left: 8rem; /* Adjust the left position for smaller screens */
+        top: 1rem; /* Adjust the top position for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #one {
+        left: 4rem; /* Further adjust the left position for even smaller screens */
+        top: 0.5rem; /* Further adjust the top position for even smaller screens */
+    }
+}
+
+#two{
+    color: orange;
+    position: relative;
+    left: 9rem;
+    top: 2rem;
+}
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    #two {
+        left: 8rem; /* Adjust the left position for smaller screens */
+        top: 1rem; /* Adjust the top position for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #two {
+        left: 4rem; /* Further adjust the left position for even smaller screens */
+        top: 0.5rem; /* Further adjust the top position for even smaller screens */
+    }
+}
+
+
+#three{
+    color: orange;
+    position: relative;
+    left: 9rem;
+    top: 2rem;
+}
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    #three {
+        left: 8rem; /* Adjust the left position for smaller screens */
+        top: 1rem; /* Adjust the top position for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #three {
+        left: 4rem; /* Further adjust the left position for even smaller screens */
+        top: 0.5rem; /* Further adjust the top position for even smaller screens */
+    }
+}
+
+
+#link1{
+    color: orange;
+    position: relative;
+    left: 50rem;
+    top: 0.5rem;
+}
+@media only screen and (max-width: 1200px) {
+    #link1 {
+        left: 50rem;
+        top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #link1 {
+        left: 30rem;
+        top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #link1 {
+        left: 20rem;
+        top: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #link1 {
+        left: 10rem; /* Adjust the left position for screens up to 576px width */
+        top: 0rem; /* Adjust the top position for screens up to 576px width */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #link1 {
+        left: 13rem; /* Further adjust the left position for screens up to 400px width */
+        top: -0.5rem; /* Further adjust the top position for screens up to 400px width */
+    }
+}
+
+
+#link2{
+    color: orange;
+    position: relative;
+    left: 50rem;
+    top: 0.5rem;
+}
+@media only screen and (max-width: 1200px) {
+    #link2 {
+        left: 40rem;
+        top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #link2 {
+        left: 30rem;
+        top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #link2 {
+        left: 20rem;
+        top: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #link2 {
+        left: 10rem; /* Adjust the left position for screens up to 576px width */
+        top: 0rem; /* Adjust the top position for screens up to 576px width */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #link2 {
+        left: 13rem; /* Further adjust the left position for screens up to 400px width */
+        top: -0.5rem; /* Further adjust the top position for screens up to 400px width */
+    }
+}
+
+
+#link3{
+    color: orange;
+    position: relative;
+    left: 50rem;
+    top: 0.5rem;
+}
+@media only screen and (max-width: 1200px) {
+    #link3 {
+        left: 40rem;
+        top: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #link3 {
+        left: 30rem;
+        top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #link3 {
+        left: 20rem;
+        top: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #link3 {
+        left: 10rem; /* Adjust the left position for screens up to 576px width */
+        top: 0rem; /* Adjust the top position for screens up to 576px width */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #link3 {
+        left: 13rem; /* Further adjust the left position for screens up to 400px width */
+        top: -0.5rem; /* Further adjust the top position for screens up to 400px width */
+    }
+}
+
+
+

@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Mapping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'urlapp/urlhistory.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>URL History</h1>
+        <table id="urlTable">
+            <tr>
+                <th>Original URL</th>
+                <th>Shortened URL</th><br>
+            </tr>
+        </table>
+        <p id="one">https://www.codechef.com/careers/monocept-job-listing</p>
+        <p id="link1">https://tinyurl.com/2dbn9yzt</p>
+        <p id="two">https://www.w3schools.com/js/js_classes.asp</p>
+        <p id="link2">https://tinyurl.com/yqo85qny</p>
+        <p id="three">https://www.youtube.com/watch?v=7RpdfkSyJfU</p>
+        <p id="link3">https://tinyurl.com/22dcwfl9</p>
+    </div>
+    <script src="{% static 'urlapp/urlhistory.js' %}"></script>
+</body>
+</html>
